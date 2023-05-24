@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Add a Hike</title>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="add.html">Add a Hike</a>
+        <a href="find.html">Find Hikes</a>
+        <a href="images.html">Pictures of Hikes</a>
+    </nav>
+    <h1>Suggest a Hike</h1>
+    <form action="post">
+        <fieldset>
+            <label for="name">Your Name:</label>
+            <input id="name" type="text">
+            <label for="hike">Hike Name: </label>
+            <input id="hike" type="text">
+            <div class="cb">
+                <input type="checkbox">
+                <label for="terms">Agree to Terms</label>
+            </div>
+            <label for="desc">Describe this hike and why it should be added:</label>
+            <textarea id="desc" name="" id="" cols="30" rows="10"></textarea>
+            <button type="submit">Submit</button>
+        </fieldset>
+    </form>
+</body>
+</html>
